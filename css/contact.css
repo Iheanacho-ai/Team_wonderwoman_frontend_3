@@ -1,0 +1,222 @@
+
+.header{
+    display: flex;
+    height: 93px;
+    width: 100vw;
+    background: #ffffff;
+    box-shadow: 1px 4px 10px rgba(150, 119, 44, 0.35);
+    align-items: center;
+}
+
+.logo{
+    flex-basis: 40%;
+
+}
+
+.header-logo{
+    padding-left: 10%;
+}
+ 
+.links{
+    flex-basis: 60%;
+    
+    /* justify-content: space-around; */
+}
+
+a{
+    text-decoration: none;
+    padding: 20px;
+    top: 10%;
+    color: black;
+    font-family: Nunito;
+    font-style: normal;
+}
+
+.rooms-link{
+    color: #96772C;
+}
+
+.link-btn{
+    /* padding: 16px 32px; */
+    width: 144px;
+    height: 51px;
+    background: #96772C;
+    border: none;
+}
+
+.image{
+    width: 100vw;
+    height: 500px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-origin: content-box;
+    background: url(/home/hez-daniel/Desktop/Team_wonderwoman_frontend_3/img/img-1.jpg);
+    opacity: 1;
+    background-color: black;
+    position: relative;
+    
+}
+
+.bg-img-text{
+    font-family: Nunito;
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+    /* padding-left: 40%;
+    padding-top: ; */
+    position: absolute;
+    top: 50%;
+    bottom: 0%;
+    left: 38%;
+    /* right: 5%; */
+   
+}
+
+.form-cont{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.form{
+    justify-content: center;
+    
+}
+
+h2{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #333333;
+}
+
+.name-input{
+    display: flex;
+    width: 820px;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#name{
+    width: 400px;
+    height: 70px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+}
+
+#lname{
+    width: 400px;
+    height: 70px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+}
+
+#email{
+    width: 820px;
+    height: 70px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+}
+
+#message{
+    width: 820px;
+    height: 300px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+}
+
+.form-button{
+    width: 185px;
+    height: 51px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    background: #96772C;
+    color: #FFFFFF;
+    border: none;
+}
+
+.email-cont{
+    margin-top: 15px;
+}
+
+.message-cont{
+    margin-top: 15px;
+}
+
+.btn-cont{
+    margin-top: 20px;
+    margin-left: 40%;
+}
+
+
+
+
+.contact{
+    display: flex;
+    width: 100vw;
+    height: 340px;
+    background: #F9F9F9;
+    margin-top: 5%;
+}
+
+.address{
+    display: flex;
+    flex-basis: 35%;
+    flex-direction: column;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.address-text{
+    padding-left: 30px;
+}
+
+.menu{
+    display: flex;
+    flex-basis: 25%;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.social{
+    display: flex;
+    flex-basis: 40%;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.sub-header{
+    font-weight: 600;
+    padding-left: 33px;
+}
+
+.g-cont{
+    justify-content: flex-start;
+    padding-left: 0%;
+}
+
+.a{
+    padding: 13px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 60px;
+    background: #96772C;
+    color: white;
+}
+
+.footer-text{
+    font-size: 15px;
+}
